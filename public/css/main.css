@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ul li{
+    list-style-type: none;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+.head-img{
+    width: 100%;
+    height: 300px;
+    background-image: url("/public/img/main.png");
+    position: absolute;
+}
+.wrapper-menu{
+    width: 100%;
+    position: relative;
+    background-color: rgb(255, 248, 220, 0.5);
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+	-moz-appearance: button; /* преобразование для Firefox */
+    -webkit-appearance: button; /* преобразование для Chromium */	
+    list-style-type: none;
+    display: inline; /* Отображать как строчный элемент */
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.logo{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.menu-item{
+    padding: 15px;
+    margin: 5px;
+}
+.menu-its{
+    width: 100%;
+}
+.menu-item:hover{
+    background-color: rgb(230, 226, 228, 0.9);
+    border-radius: 20px;
+    /* font-size: 18px; */
+}
+.active{
+    background-color: rgb(230, 226, 228, 1);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0;
+}
+.content-container{
+    width: 100%;
+    display: flex;  
+    /* background: url("/public/img/logo.png"); */
+}
+.content{
+    width: 80%;
+    height: 100%;
+    margin-top: 222px;
+    /* background: linear-gradient(to bottom, rgba(225, 235, 245, 1), rgba(239, 234, 224, 1)); */
+    background-color: #efeae0;
+    /* background-image: url("https://img.3dmgame.com/uploads/allimg/161124/153_161124155344_5.jpg"); */
+    margin-left: 10%;
+}
+.news-container{
+    width: 100%;
+}
+.footer-container{
+    width: 100%;
+    height: 300px;
+    background-color: #363a3c;
+}
